@@ -11,11 +11,10 @@
  
 
 - Web Client Start 
-- cd webclient
-- npm run serve
+  cd webclient
+  npm run serve
 
-When server and client are both started, 
-visit http://127.0.0.1:8080/
+- When server and client are both started, visit http://127.0.0.1:8080/
 
 - How to debug
   - node --inspect server.js
