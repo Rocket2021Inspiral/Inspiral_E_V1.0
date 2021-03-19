@@ -1,0 +1,79 @@
+// cover some element-ui styles
+
+.el-icon-search {
+    color: #007aa7;
+    //margin-left: 10%;
+}
+
+.el-icon-microphone {
+    color: #2996d1;
+}
+
+.el-input__inner {
+    height: 3em;
+    border-color: #cccccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12),
+                0 -2px 4px rgba(0, 0, 0, .12),
+                0 0 6px rgba(0, 0, 0, .04);
+}
+
+
+@import url("//unpkg.com/element-ui@2.10.0/lib/theme-chalk/index.css");
+.upload-demo .el-upload {
+    border: 1px dashed #4dd34d;
+    //border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+    bottom: 75%;
+    overflow: hidden;
+
+  }
+  .upload-demo .el-upload:hover {
+    border-color: #dfd1db;
+    filter: brightness(150%);
+  }
+
+  
+  .el-button:active{
+    transform: translate(0,00.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+  .el-button {
+    font-size: 25px;
+    color: #e0e3e7;
+    width: 260px;
+    height: 150px;
+    line-height: 100px;
+    text-align: center;
+    //background-image: url("star3.png");
+    //background-color: #cccccc;
+    //background-size: cover;
+    //background-repeat: no-repeat; /* Do not repeat the image */
+  }
+
+
+.el-input__inner:hover {
+    border-color: #0049a6;
+}
+
+.el-input__inner:focus {
+    border: 2px solid #0e5bae;
+}
+
+.el-input__suffix {
+    font-size: 0.45rem;
+    padding-top: 0.5%;
+   // width: 10%;
+    height: 100%;
+}
+
+.el-row {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+.el-col {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}

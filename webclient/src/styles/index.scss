@@ -1,0 +1,68 @@
+@import './element-ui.scss';
+body {
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+#app {
+    height: 100%;
+}
+img {
+    width: 60%;
+    animation: wobble; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+p {
+  font-size: 0.175rem;
+}
+h1 {
+    font-size: 0.6rem;
+}
+h4 {
+    font-size: 0.2rem;
+}
+//move到语音logo时的提示框
+.tooltiptext {
+    visibility: hidden;
+    background-color: #303133;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border-radius: 6px;
+    font-size: 1rem;
+
+    width: 170%;
+    top: 100%;
+    left: -59%; 
+
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* 提示工具头部 */
+    left: 44%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #303133 transparent;
+}
+
+.vjs-big-play-button {
+    font-size: 0.3rem !important;
+}
+.vjs-control-bar {
+    font-size: 0.1rem !important;
+}
